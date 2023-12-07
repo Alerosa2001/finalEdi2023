@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'formula1-display-regular-2';
+    src: url('../assets/fonts/Formula1-Regular_web_0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    width: 90%;
+   
+}
+
+header {
+    background-color: #a70000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    max-width: 100%; 
+    font-family: 'formula1-display-regular-2', sans-serif;
+    padding-left: 25px; /* Añade un relleno para mejorar la legibilidad */
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.circuit-info {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.circuit-info img {
+    width:100vw; 
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.circuit-info h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: 'formula1-display-regular-2', sans-serif;
+    padding: 5px;
+    padding-left: 25px; /* Añade un relleno para mejorar la legibilidad */
+}
+
+.circuit-info h2 {
+    text-align: center;
+    margin: 10px auto; /* Centra el texto horizontalmente y agrega espacio */
+    max-width: 90%; /* Ajusta el ancho máximo para mejorar la legibilidad */
+    font-family: 'formula1-display-regular-2', sans-serif;
+    padding-left: 25px; /* Añade un relleno para mejorar la legibilidad */
+}
+
+.circuit-info p {
+    text-align: center;
+    margin: 10px auto; /* Centra el texto horizontalmente y agrega espacio */
+    max-width: 90%; /* Ajusta el ancho máximo para mejorar la legibilidad */
+    font-family: 'formula1-display-regular-2', sans-serif;
+    padding-left: 25px; /* Añade un relleno para mejorar la legibilidad */
+}
+.schedule {
+    background-color:black;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px auto; /* Centra el texto horizontalmente y agrega espacio */
+    max-width: 90%; /* Ajusta el ancho máximo para mejorar la legibilidad */
+    font-family: 'formula1-display-regular-2', sans-serif;
+    padding-left: 25px; /* Añade un relleno para mejorar la legibilidad */
+}
+
+.schedule h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.schedule ul {
+    list-style: none;
+    padding: 0;
+}
+
+.schedule li {
+    margin-bottom: 5px;
+}
+footer {
+    background-color: #a70000; 
+    color: #fff; 
+    padding-left: 25px; /* Añade un relleno para mejorar la legibilidad */
+    text-align: center; /* Alineación del texto en el centro */
+    font-size: 14px; 
+    font-family: 'formula1-display-regular-2', sans-serif;
+}
+
+footer p {
+    margin: 0; 
+}

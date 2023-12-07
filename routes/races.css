@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'formula1-display-regular-2';
+    src: url('../assets/fonts/Formula1-Regular_web_0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: black;
+    margin: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #a70000;
+    color: #fff;
+    padding: 2.5vw; 
+    font-family: 'formula1-display-regular-2', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+text-align: center;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 4vw; 
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2vh;
+    transition: font-size 0.3s ease; /* Agrega una transición suave al cambio de tamaño */
+}
+
+nav ul li a:hover {
+    font-size: 2.3vh; /* Ajusta el tamaño deseado al hacer hover */
+}
+nav ul li a:visited {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+a:visited {
+    color: inherit; /* Hereda el color del texto del padre */
+    text-decoration: none; /* Elimina la decoración de enlaces visitados */
+}
+
+.main-bg {
+    background-image: url('../assets/f12023.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 6vw; 
+  }
+
+/* Estilos del calendario de carreras */
+.race-calendar {
+    padding: 6vw; 
+    font-family: 'formula1-display-regular-2', sans-serif;
+}
+
+.race {
+    color: #fff;
+    margin-bottom: 5vh; 
+    padding: 6vw; 
+    background-color:black;
+    border-radius: 2vw; 
+    font-size: 2vh;
+}
+
+.race h2 {
+    margin-bottom: 3vw; 
+    
+}
+.race h2 a{ color: #fff;
+    text-decoration: none;
+    font-size: 5vh;
+    transition: font-size 0.3s ease; /* Agrega una transición suave al cambio de tamaño */}
+    .race h2 a:hover{font-size: 5.3vh; /* Ajusta el tamaño deseado al hacer hover */}
+
+footer {
+    text-align: center;
+    padding: 4vw; 
+    background-color: #a70000;
+    color: #fff;
+    font-family: 'formula1-display-regular-2', sans-serif;
+}
