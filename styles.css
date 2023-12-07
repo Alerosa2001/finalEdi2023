@@ -9,14 +9,14 @@ body {
   font-family: "formula1-display-regular-2", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f1f1f1; /* Color de fondo similar al sitio de la Fórmula 1 */
-  color: #333; /* Color de texto principal */
+  background-color: #f1f1f1; 
+  color: #333; 
 }
 
 /* Estilos del header */
 header {
-  background-color: #a70000; /* Negro */
-  color: #fff; /* Blanco */
+  background-color: #a70000; 
+  color: #fff; 
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -34,37 +34,42 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff; /* Blanco */
-  text-decoration: none;
   font-family: "formula1-display-regular-2", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2vh;
+  transition: font-size 0.3s ease; /* Agrega una transición suave al cambio de tamaño */
+}
+nav ul li a:hover {
+  font-size: 2.3vh; /* Ajusta el tamaño deseado al hacer hover */
 }
 
 /* Estilos de la sección de bienvenida */
 .welcome-section {
   text-align: center;
-  padding: 10vw; /* Ajuste del padding utilizando unidades de viewport */
-  background-color: black; /* Rojo principal de la paleta de colores */
-  color: #fff; /* Blanco */
+  padding: 10vw; 
+  background-color: black; 
+  color: #fff; 
   font-family: "formula1-display-regular-2", sans-serif;
 }
 
 .welcome-section h1 {
-  font-size: 8vw; /* Tamaño del título utilizando unidades de viewport */
-  margin-bottom: 2vw; /* Espaciado inferior utilizando unidades de viewport */
+  font-size: 8vw; 
+  margin-bottom: 2vw; 
 }
 
 .welcome-section p {
-  font-size: 3vw; /* Tamaño del texto utilizando unidades de viewport */
-  margin-bottom: 4vw; /* Espaciado inferior utilizando unidades de viewport */
+  font-size: 3vw; 
+  margin-bottom: 4vw; 
 }
 
 .btn-enter {
   display: inline-block;
-  padding: 1.5vw 3vw; /* Ajuste del padding utilizando unidades de viewport */
+  padding: 1.5vw 3vw; 
   border: 2px solid white;
   border-radius: 5px;
   text-decoration: none;
-  color: #fff; /* Blanco */
+  color: #fff; 
   font-size: 4vw; /* Tamaño del texto del botón utilizando unidades de viewport */
   font-family: "formula1-display-regular-2", sans-serif;
 }
@@ -76,20 +81,20 @@ nav ul li a {
 
 /* Estilos del contenido principal */
 .featured {
-  padding: 5vw; /* Ajuste del padding utilizando unidades de viewport */
+  padding: 5vw; 
   background-color: #f1f1f1;
-  background-image: url("assets/abudhabi.avif"); /* Ruta de tu imagen de fondo */
+  background-image: url("assets/abudhabi.avif");
   background-size: cover; /* Para cubrir toda la sección */
   background-position: center; /* Para centrar la imagen */
-  color: #fff; /* Color de texto principal */
-  position: relative; /* Para utilizar posición relativa */
+  color: #fff; 
+  position: relative; 
 
   /* Ajuste de altura basado en el tamaño del h1 */
-  height: 45vh; /* Altura relativa al viewport */
+  height: 45vh; 
   min-height: calc(8vw + 20px); /* Altura mínima basada en el tamaño del h1 */
 }
 .featured h1 {
-  font-size: 9vw; /* Tamaño del título para pantallas pequeñas (mobile-first) */
+  font-size: 9vw; 
   font-family: "formula1-display-regular-2", sans-serif;
   text-transform: uppercase;
   position: absolute;
@@ -102,9 +107,9 @@ nav ul li a {
 }
 
 .content {
-  padding: 5vw; /* Ajuste del padding utilizando unidades de viewport */
-  background-color: black; /* Rojo principal de la paleta de colores */
-  color: #fff; /* Blanco */
+  padding: 5vw; 
+  background-color: black; 
+  color: #fff; 
   font-family: "formula1-display-regular-2", sans-serif;
 }
 .content h2 {
@@ -116,8 +121,15 @@ nav ul li a {
   font-size: 2vw;
 }
 .content a:focus,
-.content a:active {
-  outline: none; /* Elimina el contorno por defecto al enfocar o presionar el enlace */
+.content a:active,
+.content a:hover 
+ {
+    color: #fff; 
+    text-decoration: none; 
+}
+a:visited {
+  color: inherit; /* Hereda el color del texto del padre */
+  text-decoration: none; /* Elimina la decoración de enlaces visitados */
 }
 
 .content a:link {
